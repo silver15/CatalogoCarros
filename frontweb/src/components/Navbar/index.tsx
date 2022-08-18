@@ -21,7 +21,7 @@ function Navbar() {
         </button>
 
         <div className="collapse navbar-collapse" id="dscatalog-navbar">
-          <ul className="navbar-nav offset-md-10 main-menu">
+          <ul className="navbar-nav offset-md-8 main-menu">
             <li>
               <a href="link" className="active">
                 HOME
