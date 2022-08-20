@@ -1,6 +1,7 @@
 import MainImagem from 'assets/images/main-image.png';
 import './styles.css';
 import ButtonIcon from 'components/buttonIcon';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -20,7 +21,9 @@ const Home = () => {
         </div>
       </div>
       <div className="home-button">
+        <Link to="/products">
         <ButtonIcon />
+        </Link>
         <p>Comece agora a navegar</p>
       </div>
     </div>
