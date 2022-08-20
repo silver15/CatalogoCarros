@@ -1,0 +1,52 @@
+.base-card {
+  background-color: #ededed;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 347px;
+}
+
+.card-top-container {
+  padding: 16px 0;
+  text-align: center;
+}
+
+.card-top-container img {
+  width: 213px;
+  height: 165px;
+}
+
+.product-card {
+  margin-bottom: 30px;
+}
+
+.card-pesquisa {
+  background-color: #ededed;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+  height: 86px;
+  width: 300px;
+}
+
+.card-botton-container {
+  padding: 10px 20px 139px 20px;
+}
+
+.card-botton-container h6 {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+
+.card-botton-container p {
+  font-size: 14px;
+  color: #585858;
+  margin-top: 14px;
+}
+
+.Button-card button {
+  width: 257px;
+  height: 40px;
+  background-color: #00285f;
+}
