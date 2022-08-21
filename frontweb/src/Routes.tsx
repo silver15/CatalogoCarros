@@ -5,7 +5,7 @@ import Catalog from 'pages/Catalog';
 
 const Routes = () => (
   <BrowserRouter>
-  <Navbar />
+    <Navbar />
     <Switch>
       <Route path="/" exact>
         <Home />

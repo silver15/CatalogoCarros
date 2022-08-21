@@ -1,7 +1,8 @@
 import './styles.css';
 
 import ProductImg from 'assets/images/car-card.png';
-import ButtonIcon from 'components/buttonIcon';
+
+import ButtonBay from 'components/ButtonBay';
 const ProductCard = () => {
   return (
     <>
@@ -16,7 +17,7 @@ const ProductCard = () => {
             Cupiditate, nisi
           </p>
           <div className="Button-card">
-            <ButtonIcon />
+            <ButtonBay />
           </div>
         </div>
       </div>

@@ -1,9 +1,46 @@
-.button-pesquisa{
-    width: 199px;
-    height: 40px;
-    background-color: #00285F;
-    margin-bottom: 10px;
-    
+.btn-icon-container {
+  width: 77px;
+  height: 40;
+  background-color: #00285f;
+  border-radius: 0px 5px 5px 0px;
+}
 
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.btn-icon-container h6 {
+  color: #fff;
+  text-align: center;
+  padding: 12px 8px 12px 14px;
+  font-size: 14px;
+}
+
+.btn-container input {
+  width: 199px;
+  height: 40px;
+}
+
+@media (min-width: 576px) {
+  .btn-container input {
+    width: 320px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-container input {
+    width: 516px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-container input {
+    width: 584px;
+    height: 40px;
+  }
 }
 
